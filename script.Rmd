@@ -1,0 +1,248 @@
+---
+title: "Many Labs 2"
+subtitle: "Investigating Variation in Replicability across Sample and Setting<br><br>"
+author: "Richard Klein<br /> LIP/PC2S <br /> Université Grenoble Alpes"
+date: "2019-02-09 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: [tamu-fonts, tamu, lucy-fonts]
+    lib_dir: libs
+    self-contained: TRUE
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      ratio: "16:9"
+---
+<style type="text/css">
+.remark-slide-content {
+    font-size: 30px;
+    padding: 1em 4em 1em 4em;
+}
+</style>
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+---
+
+class: center, middle
+
+# Many Labs 2
+
+---
+
+# Replication Crisis
+
+--
+
+### Theoretical concern
+--
+
+.left[<img src = "images/concern1.png" width = "375"/>]
+.center[<img src = "images/bem.png" width = "425"/>]
+.right[<img src = "images/concern2.png" width = "375"/>]
+
+---
+
+# Replication Crisis
+
+### Evidence of a problem
+
+- `Reproducibility Project: Psychology` <small>(OSC, 2015)</small>  
+  - ~40/100 replicated
+- `Social Sciences Replication Project` <small>(Camerer et al., 2018)</small>
+  - 13/21 replicated
+- `Multiple large-scale Registered Reports`
+
+---
+
+# Replication Crisis
+
+### Addressing the problem
+
+--
+
+- Many potential causes for replication failures
+  - False positives
+  - Incompetent replicators
+  - Contextual differences
+  - Etc.
+--
+
+- Solution depends on the cause
+--
+
+- What should we expect of replications? What does replication "look like"? (statistically, practically)
+--
+
+- Ex: How much variability should we expect if we repeat the same study many times?
+---
+
+# Many Labs Projects
+
+Large collaborations of researchers replicating the same findings. Each project examines a different aspect of replication.
+
+--
+
+- 5 "Many Labs" projects completed or in-progress.
+--
+
+- I'm presenting Many Labs 2 (December)
+--
+
+- Same thing as Many Labs 1 (2014), but much bigger.
+---
+
+# Many Labs Projects
+
+.center[<img src = "images/ml1.png" width = "600"/>]
+---
+
+# Many Labs 2
+
+- <b>Goal: </b>Replicate many different studies all around the world and compare if they vary based on the sample of data collection.
+--
+
+- Replicated 28 studies
+--
+
+  - Selected for impact, diversity of content, possibility for variation across sites (more at osf.io/8cd4r/)
+--
+
+  - Split across two study "packages" due to length
+--
+
+  - Computerized in Qualtrics
+--
+
+  - Randomized study order, presented back-to-back
+
+---
+
+# Many Labs 1 Map (2014)
+
+.center[<img src = "images/ml1map.png" width = "750"/>]
+
+---
+
+# Many Labs 2 Map (2018)
+
+.center[<img src = "images/ml2map.png" width = "750"/>]
+
+---
+
+background-image: url(images/ml2map.png)
+background-size: 700px
+background-position: 90% 45%
+
+# Many Labs 2
+
+- 125 samples
+- 36 countries
+- 16 languages
+- 15,305 participants
+  
+---
+
+background-image: url(images/fig2.png)
+background-size: 650px
+background-position: 90% 45%
+
+# Results
+
+---
+
+background-image: url(images/fig2.png)
+background-size: 650px
+background-position: 90% 45%
+
+# Results
+
+- 14/28 successful
+- 21/28 smaller effect
+- Med. original <i>d</i> = 0.60
+- Med. replication <i>d</i> = 0.15
+
+---
+
+background-image: url(images/fig2.png)
+background-size: 650px
+background-position: 90% 45%
+
+# Heterogeneity
+
+- 11/28 Q < .001
+  - Sig. variability
+
+---
+
+background-image: url(images/fig2.png)
+background-size: 650px
+background-position: 90% 45%
+
+# Heterogeneity
+
+- 11/28 Q < .001
+  - Sig. variability
+- HOWEVER:
+  - 26/28 Tau ≤ 0.1
+  - Often 0
+  
+---
+
+background-image: url(images/fig2.png)
+background-size: 650px
+background-position: 90% 45%
+
+# Heterogeneity
+
+- 11/28 Q < .001
+  - Sig. variability
+- HOWEVER:
+  - 26/28 Tau ≤ 0.1
+  - Often 0
+- Mostly sampling error
+  - N = ~80 per site
+  
+---
+
+# Discussion
+
+--
+- Low variation across sample/context
+  - Despite translation, culture, population differences
+
+--
+  - Not reasonable to assume sample moderators; test empirically
+
+--
+- Replication rate aligns with other projects
+  - Is this meaningful?
+
+--
+- Many studies replicate robustly (and robust replicability is a feasible goal)
+  - Failed replications =/= false positive
+
+--
+- Open data: [https://osf.io/8cd4r/](https://osf.io/8cd4r/)
+  - CC0, free use (any purpose)
+  - We barely scratched surface
+
+---
+
+class: center, middle
+
+# Thanks!
+
+Special thanks to co-leads Fred Hasselman, Michelangelo Vianello, and Brian Nosek + 186 other co-authors.
+
+Great time to get involved (cos.io/about/news/)
+
+<br>
+@raklein3 <br>
+raklein22@gmail.com <br>
+<br>
+<br>
+
+<img src = "images/ugalogo.png" height = "75"/>&nbsp;&nbsp;&nbsp;<img src = "images/liplogo.png" height = "75"/>&nbsp;&nbsp;&nbsp;<img src = "images/idexlogo.png" height = "50"/>
